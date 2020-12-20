@@ -1,0 +1,30 @@
+/* #movie{
+    visibility: hidden;
+} */
+
+.catd{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.catd span{
+    height: auto;
+    width: auto;
+   background:#069370;
+   color: white;
+    margin: auto ;
+    margin-top: 40px;
+    font-weight: 600;
+    border-radius: 50px 20px; 
+    padding: 10px 30px;
+}
+.catd span:hover {
+    background:red;
+    cursor:pointer;
+    transition: 0.9s;
+}
+.catd span.active{
+    background:red;
+}
